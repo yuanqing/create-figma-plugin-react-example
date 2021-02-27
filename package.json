@@ -1,0 +1,33 @@
+{
+  "name": "figma-hello-world",
+  "version": "1.0.0",
+  "keywords": [
+    "create-figma-plugin",
+    "figma",
+    "figma-plugin"
+  ],
+  "license": "MIT",
+  "author": "yuanqing",
+  "dependencies": {
+    "@create-figma-plugin/utilities": "0.0.83",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "0.0.83",
+    "@create-figma-plugin/tsconfig": "0.0.83",
+    "@figma/plugin-typings": "^1.16.1",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "build": "build-figma-plugin",
+    "watch": "build-figma-plugin --watch"
+  },
+  "figma-plugin": {
+    "id": "figma-hello-world",
+    "name": "Hello World",
+    "main": "src/main.ts",
+    "ui": "src/ui.tsx"
+  }
+}

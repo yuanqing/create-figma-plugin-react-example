@@ -1,0 +1,7 @@
+{
+  "extends": "@create-figma-plugin/tsconfig",
+  "compilerOptions": {
+    "jsxFactory": "React.createElement",
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
+  }
+}
